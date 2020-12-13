@@ -1,0 +1,14 @@
+.minecraft/versions/1.12.2/*
+.minecraft/assets/
+.minecraft/libraries/
+.minecraft/launcher_profiles.json
+HMCL-*.exe
+hmcl.json
+
+!.gitignore
+!.minecraft/versions/1.12.2/config/
+!.minecraft/versions/1.12.2/mods/
+!.minecraft/versions/1.12.2/resources/
+!.minecraft/versions/1.12.2/scripts/
+!.minecraft/versions/1.12.2/1.12.2.jar
+!.minecraft/versions/1.12.2/1.12.2.json
