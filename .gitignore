@@ -1,7 +1,9 @@
-.minecraft/versions/1.12.2/*
+
 .minecraft/assets/
 .minecraft/libraries/
 .minecraft/launcher_profiles.json
+.minecraft/saves/
+.minecraft/logs/
 HMCL-*.exe
 hmcl.json
 

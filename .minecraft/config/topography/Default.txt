@@ -1,0 +1,25 @@
+addBiomes("biomesoplenty:outback")
+addBiomes("biomesoplenty:chaparral")
+addBiomes("biomesoplenty:tundra")
+addBiomes("biomesoplenty:brushland")
+addBiomes("biomesoplenty:shrubland")
+addBiomes("minecraft:dessert")
+addBiomes("minecraft:plains")
+
+//Creates a new LayerGenerator and saves it as a variable
+layers = new LayerGenerator()
+
+layers.addLayer(0~0, <minecraft:bedrock>)
+layers.addLayer(1~45, <minecraft:stone>)
+layers.addLayer(46~49, <minecraft:obsidian>)
+layers.addLayer(50~56, <minecraft:stone>)
+layers.addLayer(57~59, <minecraft:dirt>)
+layers.addLayer(60~60, <minecraft:grass>)
+
+//Adds the layer generator to the dimension
+addGenerator(layers)
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+replace = new BiomeBlockReplacementGenerator()
+addGenerator(replace)
