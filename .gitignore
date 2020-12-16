@@ -4,6 +4,7 @@
 .minecraft/launcher_profiles.json
 .minecraft/saves/
 .minecraft/logs/
+.minecraft/crash-reports/
 HMCL-*.exe
 hmcl.json
 
